@@ -2,10 +2,15 @@
 extract text from hwpx format
 
 
-# Example
+# Example 
 ```python
-  parser = HwpXParser()
-  doc = parser.parse(FILEPATH)
-  print(doc.full_text)
+parser = HwpXParser()
+doc = parser.parse(FILEPATH)
+print(doc.full_text)
+```
+
+# Example result
+```
+
 ```
 
